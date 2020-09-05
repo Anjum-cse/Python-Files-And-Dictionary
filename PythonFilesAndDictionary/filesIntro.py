@@ -1,0 +1,6 @@
+fileref = open("text", "r")
+first_forty = fileref.read(40)
+print(first_forty)
+data = open("text").read()
+lines =data.split("\n")
+print(len(lines))
